@@ -1,0 +1,148 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Serial COM3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Documents and Settings\GIH\My Documents\Downloads\CODE_UPLOAD1694\StdAfx.cpp'
+
+Creating temporary file "C:\DOCUME~1\GIH\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Serial COM3.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Gigih\Trainning\Serial COM3\serial.cpp"
+"D:\Gigih\Trainning\Serial COM3\SerialCom3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIH\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\GIH\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Serial COM3.pdb" /debug /machine:I386 /out:"Debug/Serial COM3.exe" /pdbtype:sept 
+".\Debug\enumser.obj"
+".\Debug\main.obj"
+".\Debug\serial.obj"
+".\Debug\SerialCom3.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\GIH\LOCALS~1\Temp\RSP4C.tmp"
+<h3>Output Window</h3>
+Compiling...
+serial.cpp
+d:\gigih\trainning\serial com3\serial.cpp(28) : error C2079: 'regs' uses undefined union 'REGS'
+d:\gigih\trainning\serial com3\serial.cpp(31) : error C2065: 'clrscr' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(32) : error C2065: 'DETECT' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(37) : error C2079: 'ffblk1' uses undefined struct 'ffblk'
+d:\gigih\trainning\serial com3\serial.cpp(40) : error C2065: 'initgraph' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(41) : error C2065: 'getmaxx' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(57) : error C2065: 'setcolor' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(57) : error C2065: 'DARKGRAY' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(58) : error C2065: 'line' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(60) : error C2065: 'WHITE' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(63) : error C2065: 'gotoxy' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(66) : error C2065: 'findfirst' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(66) : error C2065: 'FA_RDONLY' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(70) : error C2065: 'sound' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(71) : error C2065: 'sleep' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(72) : error C2065: 'nosound' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(89) : error C2065: 'outport' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(90) : error C2065: 'delay' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(117) : error C2065: 'inport' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(171) : error C2065: 'closegraph' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(264) : error C2228: left of '.h' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(264) : error C2228: left of '.ah' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(265) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(265) : error C2228: left of '.dx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(266) : error C2228: left of '.h' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(266) : error C2228: left of '.al' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(267) : error C2065: 'int86' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(267) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(272) : error C2228: left of '.h' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(272) : error C2228: left of '.ah' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(273) : error C2228: left of '.h' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(273) : error C2228: left of '.al' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(274) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(274) : error C2228: left of '.dx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(275) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(277) : error C2228: left of '.h' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(277) : error C2228: left of '.ah' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(286) : error C2065: 'cleardevice' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(288) : error C2065: 'setfillstyle' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(288) : error C2065: 'LIGHTGRAY' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(289) : error C2660: 'bar' : function does not take 4 parameters
+d:\gigih\trainning\serial com3\serial.cpp(303) : error C2065: 'settextstyle' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(304) : error C2065: 'outtextxy' : undeclared identifier
+d:\gigih\trainning\serial com3\serial.cpp(317) : warning C4129: '%' : unrecognized character escape sequence
+d:\gigih\trainning\serial com3\serial.cpp(326) : error C2660: 'bar' : function does not take 4 parameters
+d:\gigih\trainning\serial com3\serial.cpp(340) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(340) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(341) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(342) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(342) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(347) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(347) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(348) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(352) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(352) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(353) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(358) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(358) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(359) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(360) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(360) : error C2228: left of '.bx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(362) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(362) : error C2228: left of '.cx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(363) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(363) : error C2228: left of '.dx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(372) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(372) : error C2228: left of '.ax' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(373) : error C2059: syntax error : '?'
+d:\gigih\trainning\serial com3\serial.cpp(374) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(374) : error C2228: left of '.cx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(375) : error C2228: left of '.x' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(375) : error C2228: left of '.dx' must have class/struct/union type
+d:\gigih\trainning\serial com3\serial.cpp(376) : warning C4172: returning address of local variable or temporary
+SerialCom3.cpp
+d:\gigih\trainning\serial com3\serialcom3.cpp(22) : error C2065: 'HANDLE' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(22) : error C2146: syntax error : missing ';' before identifier 'hSerial'
+d:\gigih\trainning\serial com3\serialcom3.cpp(22) : error C2065: 'hSerial' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(24) : error C2065: 'CreateFile' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(25) : error C2065: 'GENERIC_READ' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(25) : error C2065: 'GENERIC_WRITE' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(28) : error C2065: 'OPEN_EXISTING' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(29) : error C2065: 'FILE_ATTRIBUTE_NORMAL' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(31) : error C2065: 'INVALID_HANDLE_VALUE' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(32) : error C2065: 'GetLastError' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(32) : error C2065: 'ERROR_FILE_NOT_FOUND' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2065: 'DCB' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2146: syntax error : missing ';' before identifier 'dcbSerialParams'
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2065: 'dcbSerialParams' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2059: syntax error : '{'
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2143: syntax error : missing ';' before '{'
+d:\gigih\trainning\serial com3\serialcom3.cpp(39) : error C2143: syntax error : missing ';' before '}'
+d:\gigih\trainning\serial com3\serialcom3.cpp(41) : error C2065: 'dcbSerial' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(41) : error C2228: left of '.DCBlength' must have class/struct/union type
+d:\gigih\trainning\serial com3\serialcom3.cpp(42) : error C2065: 'GetCommState' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(45) : error C2228: left of '.BaudRate' must have class/struct/union type
+d:\gigih\trainning\serial com3\serialcom3.cpp(45) : error C2065: 'CBR_9600' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(46) : error C2228: left of '.ByteSize' must have class/struct/union type
+d:\gigih\trainning\serial com3\serialcom3.cpp(47) : error C2228: left of '.StopBits' must have class/struct/union type
+d:\gigih\trainning\serial com3\serialcom3.cpp(47) : error C2065: 'ONESTOPBIT' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(48) : error C2228: left of '.Parity' must have class/struct/union type
+d:\gigih\trainning\serial com3\serialcom3.cpp(48) : error C2065: 'NOPARITY' : undeclared identifier
+d:\gigih\trainning\serial com3\serialcom3.cpp(49) : error C2065: 'SetCommState' : undeclared identifier
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/Serial COM3.bsc"  ".\Debug\enumser.sbr" ".\Debug\main.sbr" ".\Debug\serial.sbr" ".\Debug\SerialCom3.sbr" ".\Debug\StdAfx.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Documents and Settings\GIH\My Documents\Downloads\CODE_UPLOAD1694\main.cpp'
+
+Build : warning : failed to (or don't know how to) build 'C:\Documents and Settings\GIH\My Documents\Downloads\CODE_UPLOAD1694\enumser.cpp'
+
+
+
+
+<h3>Results</h3>
+Serial COM3.exe - 99 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

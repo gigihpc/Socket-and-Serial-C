@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: balik_kalimat_perkata - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\GIH\LOCALS~1\Temp\RSPE6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/balik_kalimat_perkata.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Gigih\balik_kalimat_perkata\balik_kalimat_perkata.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIH\LOCALS~1\Temp\RSPE6.tmp" 
+<h3>Output Window</h3>
+Compiling...
+balik_kalimat_perkata.cpp
+
+
+
+<h3>Results</h3>
+balik_kalimat_perkata.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
